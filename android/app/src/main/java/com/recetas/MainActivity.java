@@ -1,4 +1,4 @@
-package com.rnintroscreen;
+package com.recetas;
 
 import com.facebook.react.ReactActivity;
 

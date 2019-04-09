@@ -6,11 +6,12 @@ import styles from "./Styles/NavBarStyles";
 class Navbar extends React.Component{
     render(){
       return (
-        <View style={styles.Navbar}>
-            <text style = {style.title}>Title</text>
+        <View style={styles.navbar}>
+            <text style = {styles.title}>Title</text>
         </View>
       )
     }
 }
 
 export default Navbar; 
+

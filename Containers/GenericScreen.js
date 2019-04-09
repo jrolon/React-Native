@@ -41,6 +41,7 @@ export default class GenericScreen extends Component {
           onPressFavorite={this.pressFavorite}
           favorite={favorite}
         />
+        {/*<Text>hola</Text>*/}
         <View style={styles.container}>{/* content goes here */}</View>
       </View>
     );

@@ -1,4 +1,5 @@
-import { 
+/*
+import {
     createStackNavigator, 
     createBottomTabNavigator 
 } from "react-navigation";
@@ -28,4 +29,4 @@ const AppNavigator = createStackNavigator(
 
 );
 
-export default AppNavigator;
+export default AppNavigator;*/

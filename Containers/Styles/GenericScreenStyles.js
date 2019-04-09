@@ -7,7 +7,7 @@ const BARHEIGHT = 56;
 export default StyleSheet.create({
     navbar: {
       marginTop: Metrics.statusBarHeight,
-      height: Metrics.navbarHeight,
+      height: Metrics.navBarHeight,
       backgroundColor: Colors.whiteFull,
       alignItems: "center",
       justifyContent: "center"
@@ -19,6 +19,7 @@ export default StyleSheet.create({
     redBar:{
       backgroundColor: Colors.redFull,
       height: BARHEIGHT * 1.5
-    }
+    },
+    mainScreen:{}
 
   });
