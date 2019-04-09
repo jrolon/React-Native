@@ -1,13 +1,14 @@
 /*
-import {
+/!*import {
     createStackNavigator, 
     createBottomTabNavigator 
-} from "react-navigation";
-
+} from "react-navigation";*!/
+import {createStackNavigator, createAppContainer} from 'react-navigation';
 import GenericScreen from "../Containers/GenericScreen";
+import Navbar from "../Components/NavBar";
 
 
-const TabNav = createBottomTabNavigator(
+/!*const TabNav = createBottomTabNavigator(
     {
         Explore: { screen: GenericScreen },
         Categories: { screen: GenericScreen },
@@ -17,16 +18,22 @@ const TabNav = createBottomTabNavigator(
         headerMode: "none",
         initialRouteName: "Explore"
     }
-);
+);*!/
 
-const AppNavigator = createStackNavigator(
+/!*
+const App = createStackNavigator(
     {
-        Home: { screen: TabNav }
+        Home: { screen: GenericScreen }
     },
     {
         headerMode: "none"
     }
 
 );
+*!/
 
-export default AppNavigator;*/
+const AppNavigator = createAppContainer(App);
+
+export default AppNavigator;
+
+*/

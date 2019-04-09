@@ -14,6 +14,11 @@ import styles from "./Styles/GenericScreenStyles";
 import NavBar from "../Components/NavBar";
 
 export default class GenericScreen extends Component {
+
+  static navigationOptions = {
+    title: 'Welcome',
+  };
+
   constructor(props) {
     super(props);
     this.state = {

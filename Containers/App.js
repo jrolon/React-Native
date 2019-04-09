@@ -7,14 +7,20 @@
  * @lint-ignore-every XPLATJSCOPYRIGHT1
  */
 
-import React, {Component} from 'react';
+import React, { Component } from "react";
+import { View, Text  } from "react-native";
 
 import AppNavigation from "../Navigation/AppNavigation";
 
 
 export default class App extends Component {
   render() {
-    return <View>Hello</View>;
+    return (
+        <View>
+          <Text>Hola</Text>
+        </View>
+
+    );
   }
 }
 

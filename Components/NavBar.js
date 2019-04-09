@@ -7,7 +7,7 @@ class Navbar extends React.Component{
     render(){
       return (
         <View style={styles.navbar}>
-            <text style = {styles.title}>Title</text>
+            <Text style = {styles.title}>Title</Text>
         </View>
       )
     }
